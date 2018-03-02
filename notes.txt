@@ -1,0 +1,12 @@
+md GIT-LEARNING
+cd GIT-LEARNING
+git init
+git remote add origin https://github.com/GRiDlockUK/Learning.git
+git remote -v
+git clone https://github.com/GRiDlockUK/Learning.git
+echo BLAH > Blah.txt
+git add .
+git commit -m "blah added"
+git push 
+
+
